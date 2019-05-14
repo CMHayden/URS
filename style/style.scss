@@ -1,0 +1,358 @@
+$blue: #6fc8ef;
+$silver: #bec2cb;
+$black: #121212;
+$grey: #e3e3e3;
+$red: rgb(128, 0, 0);
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Six+Caps');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Montserrat';
+    
+    .blue {
+        color: $blue;
+    }
+    .black {
+        color: $black;
+    }
+    h2 {
+        font-family: 'Six Caps';
+        @media(min-width: 510px){
+            font-size: 4em;    
+        }
+        font-size: 2.5em;
+        font-style: normal;
+    }
+    h1 {
+        font-family: 'Six Caps';
+        @media(min-width: 510px){
+            font-size: 6em;
+        }
+        font-size: 4em;
+        font-style: normal;
+    }
+    p {
+        @media(min-width: 510px){
+            font-size: 2em;
+        }
+        font-size: 1.2em;
+    }
+    a{
+        text-decoration: none;
+        @media(min-width: 510px){
+            font-size: 2em;
+        }
+        font-size: 1.2em;
+    }
+    address {
+        font-style: normal;
+        @media(min-width: 510px){
+            font-size: 2em;
+        }
+        font-size: 1.2em;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container {
+        @media (min-width: 1000px){
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .left {
+        display: none;
+        @media (min-width: 1000px){
+            display: unset;
+            padding-right: 5vw;
+        }
+        @media (min-width: 1350px) {
+            display: unset;
+            padding-right: 10vw;
+        }
+    }
+    .right {
+        display: none;
+        @media (min-width: 1000px){
+            display: unset;
+            padding-left: 5vw;
+        }          
+        @media (min-width: 1350px) {
+            display: unset;
+            padding-left: 10vw;
+        }
+    }
+    .mobile-projects,
+    .mobile-about {
+        @media (min-width: 1000px){
+            display: none;
+        }
+    }
+    .mobile-button {
+        @media (min-width: 1000px){
+            display: none;
+        }
+    }
+    .mobileLinks {
+        display: none;
+        text-align: right;
+        .mobileLink {
+            display: block;
+            font-family: 'Six Caps';
+            text-decoration: none;
+            font-size: 2em;
+            color: $blue;
+
+        }
+    }
+    .centre {
+        text-align: center;
+        padding-bottom: 5vh;
+        @media(min-width: 510px){
+            padding-bottom: 10vh;
+        }
+    }
+        .logo {
+            font-family: serif;
+            @media(min-width: 510px){
+                font-size: 6em;
+            }
+            padding: .1em;
+            font-size: 4em;
+            border: 3px solid $silver;
+            text-align: center;
+            color: $silver;
+            //background-color: rgba(255, 255, 255, 0.25);
+            font-weight: bold;
+        }
+        .navigation-links {
+            display: none;
+            @media (min-width: 1000px){
+                display: unset;
+            }
+        }
+        .links {
+            a{
+                font-family: 'Six Caps';
+                text-decoration: none;
+                @media(min-width: 510px){
+                    font-size: 4em;
+                }
+                font-size: 2em;
+                color: $blue;
+                padding-left: 1em;
+            }
+        }
+        .button-holder {
+            padding-left: 9vw;
+            padding-bottom: 3em;
+            padding-top: 1em;
+            text-align: center;
+        }
+        .button {
+            text-decoration: none;
+            border: 3px solid $black;
+            @media(min-width: 510px){
+                font-size: 2em;
+            }
+            font-size: 1.2em;
+            padding: .2em .7em;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: $blue;
+            color: $grey;
+        }
+        .padded {
+            padding: 5vh 5vw;
+            @media (min-width: 1350px) {
+             padding: 5vh 10vw;
+            }
+          }
+        .about,
+        .projects,
+        .contact {
+            padding: 5vh 5vw;
+            @media (min-width: 1350px) {
+                padding: 15vh 10vw;
+            }
+        }
+        .hero {
+            background: transparent;
+            min-height: 100vh;
+            @media (max-width: 500px){
+                background: url(../images/hero_image.png) no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-attachment: scroll;
+                
+            }
+            .button-holder{
+                @media(min-width: 500px){
+                    text-align: left;
+                }
+                margin-bottom: 4vh;
+            }
+            .button {
+                border: 3px solid $blue;
+                display: block;
+                margin-bottom: 10px;
+                max-width: 55%;
+                @media (min-width: 450px){
+                    display: unset;
+                    margin-right: 25px;
+                }
+            }
+            .button:hover {
+                background-color: $blue;
+                border: 3px solid $blue;
+                color: $black;
+            }
+            h1 {
+                padding-top: 5vh;
+            }
+            p{
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+            }
+        }
+        .about {
+            background-color: #6fc9ef7e;
+            @media (max-width: 500px){
+                background-color: $blue;
+            }
+        }
+
+        .projects {
+            background-color: #1212127e;
+            @media (max-width: 500px){
+                background-color: $black;
+            }
+            .title{
+                color: $blue;
+                font-weight: bold;
+            }
+            .desc {
+                color: $blue;
+            }
+            .date{
+                color: $grey;
+            }
+        }
+        .contact {
+            background-color: #e3e3e37e;
+            @media (max-width: 500px){
+                background-color: $grey;
+            }
+            .invalidInput {
+                border: 5px solid $red;
+                transition: 1s;
+            }
+            label {
+                font-weight: bold;
+                @media(min-width: 510px){
+                    font-size: 2em;
+                }
+                font-size: 1.2em;
+                text-align: left;
+            }
+            input,
+            textarea {
+                border: 3px solid $black;
+                background-color: #e3e3e37e;
+                @media (max-width: 500px){
+                    background-color: $grey;
+                }
+                border-radius: 25px;
+                font-family: 'montserrat';
+                color: $black;
+                font-size: 1.2em;
+                @media(min-width: 510px){
+                    font-size: 2em;
+                }
+                padding: .5em .5em;
+                margin-top: .5em;
+                margin-bottom: 1.6em;
+            }
+            input[type="text"],
+            textarea {
+                @media(min-width: 1000px){
+                    width: 700px;
+                }
+                @media(max-width: 999px) and (min-width: 750px){
+                    width: 70%;
+                }
+
+                width: 90%;
+            }
+            input[type="submit"]{
+                padding: .5em 2.5em; 
+                font-size: 1.5em;
+                transition: 0.3s;
+            }
+            input[type="submit"]:hover{
+                cursor: pointer;
+                background-color: $black;
+                color: $grey;
+            }
+            textarea {
+                resize: vertical;
+            }
+        }
+
+        .success,
+        .error {
+            transition: 0.3s;
+            color: $black;
+            font-family: 'montserrat';
+            font-size: 1.2em;
+            @media(min-width: 510px){
+                font-size: 2em;
+            }
+            padding: 1em;
+            width: auto;
+            text-align: center;
+            border-radius: 25px;
+            border: 3px solid $black;
+        }
+        .error {
+            background-color: $red;
+            color: $grey;
+            display: none;
+        }
+        .success {
+            display: none;
+        }
+        .invalid {
+            color: $red;
+        }
+
+
+        footer {
+            background-color: $blue;
+            display: flex;
+            justify-content: space-between;
+            .logo {
+                border: 3px solid $black;
+                color: $black;
+                margin-right: .5em;
+            }
+            .copyright {
+                font-size: 1.2em;
+            }
+        }
+    }
