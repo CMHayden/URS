@@ -1,120 +1,175 @@
 const Projects = [
     {
-        id: 1,
         title: "VW - Puebla, Mexico",
         description: "New paint robots",
         date: "Jun 2011 - Aug 2011"
     },
     {
-        id: 2,
         title: "VW - Puebla, Mexico",
         description: "New paint robots",
         date: "Dec 2011 - Apr 2012"
     },
     {
-        id: 3,
         title: "Nissan / Renault - Tangier, Morocco",
         description: "Paint Process Consulting",
         date: "Jul 2012 - Aug 2012"
     },
     {
-        id: 4,
         title: "SVW - Nanjing, China",
         description: "New car model painting",
         date: "Aug 2012 - Dec 2012"
     },
     {
-        id: 5,
         title: "VW - Taubaté, Brazil",
         description: "Two new painting lines",
         date: "Aug 2012 - Dec 2012"
     },
     {
-        id: 6,
-        title: "Hyundai Assam - Izmit, Turkey",
-        description: "New paint robots",
-        date: "Feb 2014 - May 2014"
-    },
-    {
-        id: 7,
         title: "SVW - Ningbo, China",
         description: "Praint process consulting",
         date: "Dec 2011 - Apr 2012"
     },
     {
-        id: 8,
+        title: "Skoda - Mlada Boleslav, Check Republic",
+        description: "Configuration, programing, optimization and production support of Interior Stations of two Top Coat Lines Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2012 - 2013"
+    },
+    {
+        title: "FAW / VW - Foshan, Guangdong, China",
+        description: "Configuration, programing, optimization and production support of two complete Top Coat Lines Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2013 - 2014"
+    },
+    {
+        title: "Hyundai Assam - Izmit, Turkey",
+        description: "New paint robots",
+        date: "Feb 2014 - May 2014"
+    },
+    {
         title: "Jaguar / Land Rover - Solihull, UK",
         description: "New exterior painting robots",
         date: "Aug 2014 - Sep 2014"
     },
     {
-        id: 9,
         title: "SVW - Yizheng, China",
         description: "New UBS robots",
         date: "Oct 2014"
     },
     {
-        id: 10,
         title: "VW - Chattanooga, USA",
         description: "New model",
         date: "Dec 2014"
     },
     {
-        id: 11,
+        title: "Audi - Ingolstadt, Germany",
+        description: "Programing and optimization of FAD station Contractor IAG Industrial Analysis GmbH (ABB Robots)",
+        date: "2014"
+    },
+    {
+        title: "SVW / VW Anting - Shanghai, China",
+        description: "Configuration, Programing, optimization and production support of two complete Top Coat Lines Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2014 - 2015"
+    },
+    {
         title: "Ficosa",
         description: "Process support",
         date: "Jan 2015 - Jan 2016"
     },
     {
-        id: 12,
         title: "BMW Brilliance",
         description: "New IPP line",
         date: "Jun 2015 - Jan 2016"
     },
     {
-        id: 13,
+        title: "BMW Teixi - Shenyang, China",
+        description: "Configuration, Programing, optimization and production support of one complete Top Coat Line Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2015 - 2016"
+    },
+    {
         title: "VDL NedCar",
         description: "New interior paint stations",
         date: "Sep 2016 - May 2017"
     },
     {
-        id: 14,
         title: "VW - Mexico",
         description: "New exterior painting stations",
         date: "Sep 2016 - May 2017"
     },
     {
-        id: 15,
+        title: "VW - Bratislava, Slovakia",
+        description: "Programing of 3 new types complete line, including object measure and tracking setup in primer, D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2016"
+    },
+    {
+        title: "VW - Wrzesnia, Poland",
+        description: "Programing of 2 new types, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2016"
+    },
+    {
+        title: "Volvo Trucks - Virginia, USA",
+        description: "Commissioning and programing of 6 Base Coat Robots, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2016"
+    },
+    {
         title: "Audi - Győr, Hungary",
         description: false,
         date: "Jul 2017 - Sep 2017"
     },
     {
-        id: 16,
         title: "OPEL - Gilwice, Poland",
         description: false,
         date: "Oct 2017 - Nov 2017"
     },
     {
-        id: 17,
+        title: "SMP - Alabama, USA",
+        description: "Commissioning and Optimization, Full Plastics paint line double sided, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2017"
+    },
+    {
+        title: "SMP - Puebla, Mexico",
+        description: "Implementation of new Bumper types for Pre Quality Approval and translation to new USA plant, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2017"
+    },
+    {
+        title: "VW - Wrzesnia, Poland",
+        description: "Programing of 2 new Robots underbody wax application, Contractor Eftec (Kuka Wax Robots)",
+        date: "2017",
+    },
+    {
         title: "Volvo Trucks - USA",
         description: false,
         date: "Mar 2018 - Apr 2018"
     },
     {
-        id: 18,
         title: "BMW - Mexico",
         description: false,
         date: "May 2018 - Present"
-    }
-    /*
-    ,
+    },
     {
-        id: 19,
-        title: "todo",
+        title: "Po Greer - USA",
+        description: "Commissioning and setup of complete Plastics line double sided, Programing and Optimizing contract parts and colours, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2018"
+    },
+    {
+        title: "Sygmantec - Lyon, France",
+        description: "Measure Robots and Objects for future implementation in USA plant, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2018"
+    },
+    {
+        title: "VW - Bratislava, Slovakia",
+        description: "Commissioning and Optimization, 12 Primer Robots, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2018"
+    },
+    {
+        title: "PO Greer - USA",
+        description: "Commissioning and setup of complete Plastics line Single sided, Contractor D¸rr Systems GmbH ( Durr Paint Robots)",
+        date: "2019"
+    }/*,
+    
+    {
+        title: "company - location",
         description: "todo" or false,
-        date: "todo"
-    }
+        date: "todo" or false,
+     }
     */
 ];
 
@@ -129,19 +184,25 @@ function projectFiller() {
         if (Projects[i].description != false) {
             div_mobile.innerHTML += '<p class="desc">' + Projects[i].description + '</p>';
         }
-        div_mobile.innerHTML += '<p class="date">' + Projects[i].date + '</p><br/><br/>';
+        if (Projects[i].date != false) {
+            div_mobile.innerHTML += '<p class="desc">' + Projects[i].date + '</p><br/><br/>';
+        }
         if (i % 2 != 0) {
             div_left.innerHTML += '<p class="title">' + Projects[i].title + '</p>';
             if (Projects[i].description != false) {
                 div_left.innerHTML += '<p class="desc">' + Projects[i].description + '</p>';
             }
-            div_left.innerHTML += '<p class="date">' + Projects[i].date + '</p><br/><br/>';
+            if (Projects[i].date != false) {
+                div_left.innerHTML += '<p class="desc">' + Projects[i].date + '</p><br/><br/>';
+            }
         } else {
             div_right.innerHTML += '<p class="title">' + Projects[i].title + '</p>';
             if (Projects[i].description != false) {
                 div_right.innerHTML += '<p class="desc">' + Projects[i].description + '</p>';
             }
-            div_right.innerHTML += '<p class="date">' + Projects[i].date + '</p><br/><br/>';
+            if (Projects[i].date != false) {
+                div_right.innerHTML += '<p class="desc">' + Projects[i].date + '</p><br/><br/>';
+            }
         }
     }
 }
@@ -194,7 +255,7 @@ function sendEmail() {
         && name.value != "") {
         $.ajax({
             type: "POST",
-            url: 'https://www.callumhayden.com/urs/php/sendEmail.php',
+            url: 'https://www.urs.pt/php/sendEmail.php',
             data: $("#contactForm").serialize(),
             success: function () {
                 good.style.display = "unset";
